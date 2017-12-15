@@ -1,3 +1,5 @@
+.PHONY: react-native
+
 help: ##@other Show this help
 	@perl -e '$(HELP_FUN)' $(MAKEFILE_LIST)
 
